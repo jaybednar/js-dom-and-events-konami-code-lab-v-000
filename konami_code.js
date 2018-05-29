@@ -11,7 +11,7 @@ document.body.addEventListener('keydown', function(e) {
 function init(e) {
 
   const key = parseInt(e.detail || e.which);
-  
+
   if (key === code[i]) {
   	i++;
 
